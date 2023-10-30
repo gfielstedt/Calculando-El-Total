@@ -6,13 +6,13 @@ precioSpan.innerHTML = precio;
 resultado = document.querySelector(".valor-total");
 cantidad = document.querySelector(".cantidad");
 
-function sumar() {
+function sumando() {
   let numero = parseInt(cantidad.innerHTML);
   cantidad.innerHTML = numero + 1;
   resultado.innerHTML = precioSpan.innerHTML * cantidad.innerHTML;
 }
 
-function restar() {
+function restando() {
   let numero = parseInt(cantidad.innerHTML);
   cantidad.innerHTML = numero - 1;
   resultado.innerHTML = precioSpan.innerHTML * cantidad.innerHTML;
